@@ -36,7 +36,7 @@ x=0;
 k=0;
 while x==0 
 k=k+1;
-entrada = "C:\Users\kairo\OneDrive\Área de Trabalho\fotos luzes\capture_"+k+".jpg";
+entrada = "C:\Users\kairo\OneDrive\Área de Trabalho\fotos luzes\capture_"+k+".jpg";%path para as fotos, devendo ser salavs como capture_numero da foto
 if isfile(entrada)
 handles.arquivo = entrada;
 handles.image = imread(entrada);
